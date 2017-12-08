@@ -3,7 +3,8 @@
  */
 package BasicJSONreader;
 
-import com.google.gson.*;
+
+import org.json.simple.*;
 
 
 /**
@@ -15,8 +16,10 @@ public class basicJSONreader {
     /**
      * 
      */
-    public basicJSONreader() {
+    JSONObject rootObj;
+    public basicJSONreader(String filePath) {
         // TODO Auto-generated constructor stub
+        
     }
 
 }
